@@ -10,7 +10,7 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
-properties:
+inheritedProperties:
   - name: cameraSwitcher
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.cameraSwitcher'
     package: '@microsoft/teams-js'

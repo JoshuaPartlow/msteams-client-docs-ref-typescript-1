@@ -7,4 +7,5 @@ fullName: LogFunction
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: 'type LogFunction = (level: LogLevel, message: string) => void'
+syntax: |
+  type LogFunction = (level: LogLevel, message: string) => void

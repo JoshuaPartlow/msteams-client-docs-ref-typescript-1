@@ -11,23 +11,6 @@ isPreview: false
 isDeprecated: false
 type: interface
 properties:
-  - name: cameraSwitcher
-    uid: '@microsoft/teams-js.microsoftTeams.media.VideoProps.cameraSwitcher'
-    package: '@microsoft/teams-js'
-    summary: >-
-      Optional; indicate if user is allowed to move between front and back
-      camera
-
-      Default value is true
-    fullName: cameraSwitcher
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'cameraSwitcher?: boolean'
-      return:
-        description: ''
-        type: boolean
   - name: isFullScreenMode
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoProps.isFullScreenMode'
     package: '@microsoft/teams-js'
@@ -80,6 +63,44 @@ properties:
       return:
         description: ''
         type: number
+  - name: videoController
+    uid: '@microsoft/teams-js.microsoftTeams.media.VideoProps.videoController'
+    package: '@microsoft/teams-js'
+    summary: >-
+      Optional; setting VideoController will register your app to listen to the
+      lifecycle events during the video capture flow.
+
+      Your app can also dynamically control the experience while capturing the
+      video by notifying the host client.
+    fullName: videoController
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'videoController?: VideoController'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@microsoft/teams-js.microsoftTeams.media.VideoController"
+          />
+inheritedProperties:
+  - name: cameraSwitcher
+    uid: '@microsoft/teams-js.microsoftTeams.media.VideoProps.cameraSwitcher'
+    package: '@microsoft/teams-js'
+    summary: >-
+      Optional; indicate if user is allowed to move between front and back
+      camera
+
+      Default value is true
+    fullName: cameraSwitcher
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cameraSwitcher?: boolean'
+      return:
+        description: ''
+        type: boolean
   - name: sources
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoProps.sources'
     package: '@microsoft/teams-js'
@@ -113,25 +134,5 @@ properties:
         description: ''
         type: >-
           <xref uid="@microsoft/teams-js.microsoftTeams.media.CameraStartMode"
-          />
-  - name: videoController
-    uid: '@microsoft/teams-js.microsoftTeams.media.VideoProps.videoController'
-    package: '@microsoft/teams-js'
-    summary: >-
-      Optional; setting VideoController will register your app to listen to the
-      lifecycle events during the video capture flow.
-
-      Your app can also dynamically control the experience while capturing the
-      video by notifying the host client.
-    fullName: videoController
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'videoController?: VideoController'
-      return:
-        description: ''
-        type: >-
-          <xref uid="@microsoft/teams-js.microsoftTeams.media.VideoController"
           />
 extends: MediaProps
