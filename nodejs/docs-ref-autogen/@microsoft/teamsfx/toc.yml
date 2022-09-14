@@ -1,0 +1,124 @@
+- name: '@microsoft/teamsfx'
+  items:
+    - name: Overview
+      uid: '@microsoft/teamsfx'
+    - uid: '@microsoft/teamsfx.ApiKeyLocation'
+      name: ApiKeyLocation
+      items: []
+    - uid: '@microsoft/teamsfx.ApiKeyProvider'
+      name: ApiKeyProvider
+      items: []
+    - uid: '@microsoft/teamsfx.AppCredential'
+      name: AppCredential
+      items: []
+    - uid: '@microsoft/teamsfx.AuthenticationConfiguration'
+      name: AuthenticationConfiguration
+      items: []
+    - uid: '@microsoft/teamsfx.AuthProvider'
+      name: AuthProvider
+      items: []
+    - uid: '@microsoft/teamsfx.BasicAuthProvider'
+      name: BasicAuthProvider
+      items: []
+    - uid: '@microsoft/teamsfx.BearerTokenAuthProvider'
+      name: BearerTokenAuthProvider
+      items: []
+    - uid: '@microsoft/teamsfx.CertificateAuthProvider'
+      name: CertificateAuthProvider
+      items: []
+    - uid: '@microsoft/teamsfx.Channel'
+      name: Channel
+      items: []
+    - uid: '@microsoft/teamsfx.CommandBot'
+      name: CommandBot
+      items: []
+    - uid: '@microsoft/teamsfx.CommandMessage'
+      name: CommandMessage
+      items: []
+    - uid: '@microsoft/teamsfx.CommandOptions'
+      name: CommandOptions
+      items: []
+    - uid: '@microsoft/teamsfx.ConversationBot'
+      name: ConversationBot
+      items: []
+    - uid: '@microsoft/teamsfx.ConversationOptions'
+      name: ConversationOptions
+      items: []
+    - uid: '@microsoft/teamsfx.ErrorCode'
+      name: ErrorCode
+      items: []
+    - uid: '@microsoft/teamsfx.ErrorWithCode'
+      name: ErrorWithCode
+      items: []
+    - uid: '@microsoft/teamsfx.IdentityType'
+      name: IdentityType
+      items: []
+    - uid: '@microsoft/teamsfx.LogFunction'
+      name: LogFunction
+      items: []
+    - uid: '@microsoft/teamsfx.Logger'
+      name: Logger
+      items: []
+    - uid: '@microsoft/teamsfx.LogLevel'
+      name: LogLevel
+      items: []
+    - uid: '@microsoft/teamsfx.Member'
+      name: Member
+      items: []
+    - uid: '@microsoft/teamsfx.MessageBuilder'
+      name: MessageBuilder
+      items: []
+    - uid: '@microsoft/teamsfx.MessageResponse'
+      name: MessageResponse
+      items: []
+    - uid: '@microsoft/teamsfx.MsGraphAuthProvider'
+      name: MsGraphAuthProvider
+      items: []
+    - uid: '@microsoft/teamsfx.NotificationBot'
+      name: NotificationBot
+      items: []
+    - uid: '@microsoft/teamsfx.NotificationOptions_2'
+      name: NotificationOptions_2
+      items: []
+    - uid: '@microsoft/teamsfx.NotificationTarget'
+      name: NotificationTarget
+      items: []
+    - uid: '@microsoft/teamsfx.NotificationTargetStorage'
+      name: NotificationTargetStorage
+      items: []
+    - uid: '@microsoft/teamsfx.NotificationTargetType'
+      name: NotificationTargetType
+      items: []
+    - uid: '@microsoft/teamsfx.OnBehalfOfUserCredential'
+      name: OnBehalfOfUserCredential
+      items: []
+    - uid: '@microsoft/teamsfx.TeamsBotInstallation'
+      name: TeamsBotInstallation
+      items: []
+    - uid: '@microsoft/teamsfx.TeamsBotSsoPrompt'
+      name: TeamsBotSsoPrompt
+      items: []
+    - uid: '@microsoft/teamsfx.TeamsBotSsoPromptSettings'
+      name: TeamsBotSsoPromptSettings
+      items: []
+    - uid: '@microsoft/teamsfx.TeamsBotSsoPromptTokenResponse'
+      name: TeamsBotSsoPromptTokenResponse
+      items: []
+    - uid: '@microsoft/teamsfx.TeamsFx'
+      name: TeamsFx
+      items: []
+    - uid: '@microsoft/teamsfx.TeamsFxBotCommandHandler'
+      name: TeamsFxBotCommandHandler
+      items: []
+    - uid: '@microsoft/teamsfx.TeamsFxConfiguration'
+      name: TeamsFxConfiguration
+      items: []
+    - uid: '@microsoft/teamsfx.TeamsUserCredential'
+      name: TeamsUserCredential
+      items: []
+    - uid: '@microsoft/teamsfx.TriggerPatterns'
+      name: TriggerPatterns
+      items: []
+    - uid: '@microsoft/teamsfx.UserInfo'
+      name: UserInfo
+      items: []
