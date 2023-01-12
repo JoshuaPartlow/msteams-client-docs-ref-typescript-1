@@ -21,6 +21,7 @@ enums:
   - '@microsoft/teams-js.app.ExpectedFailureReason'
   - '@microsoft/teams-js.app.FailedReason'
 package: '@microsoft/teams-js'
+previewState: beta
 functions:
   - name: getContext()
     uid: '@microsoft/teams-js.app.getContext'
@@ -32,15 +33,15 @@ functions:
       content: 'function getContext(): Promise<Context>'
       return:
         description: >-
-          Promise that will resolve with the
-          <xref:@microsoft/teams-js.app.Context> object.
+          Promise that will resolve with the <xref:@microsoft/teams-js.Context>
+          object.
         type: Promise&lt;<xref uid="@microsoft/teams-js.app.Context" />&gt;
   - name: getFrameContext()
     uid: '@microsoft/teams-js.app.getFrameContext'
     package: '@microsoft/teams-js'
     summary: >-
-      Gets the Frame Context that the App is running in. See
-      <xref:@microsoft/teams-js.FrameContexts> for the list of possible values.
+      Gets the Frame Context that the App is running in. {@see FrameContexts}
+      for the list of possible values.
     remarks: ''
     isDeprecated: false
     syntax:
@@ -52,9 +53,9 @@ functions:
     uid: '@microsoft/teams-js.app.initialize'
     package: '@microsoft/teams-js'
     summary: Initializes the library.
-    remarks: >-
-      Initialize must have completed successfully (as determined by the resolved
-      Promise) before any other library calls are made
+    remarks: |-
+      This must be called before any other SDK calls
+      but after the frame is loaded successfully.
     isDeprecated: false
     syntax:
       content: 'function initialize(validMessageOrigins?: string[]): Promise<void>'
@@ -106,9 +107,7 @@ functions:
       parameters:
         - id: expectedFailureRequest
           type: <xref uid="@microsoft/teams-js.app.IExpectedFailureRequest" />
-          description: >
-            The expected failure request containing the reason and an optional
-            message
+          description: ''
   - name: notifyFailure(IFailedRequest)
     uid: '@microsoft/teams-js.app.notifyFailure'
     package: '@microsoft/teams-js'
@@ -122,9 +121,7 @@ functions:
       parameters:
         - id: appInitializationFailedRequest
           type: <xref uid="@microsoft/teams-js.app.IFailedRequest" />
-          description: |
-            The failure request containing the reason for why the app failed
-            during initialization as well as an optional message.
+          description: ''
   - name: notifySuccess()
     uid: '@microsoft/teams-js.app.notifySuccess'
     package: '@microsoft/teams-js'

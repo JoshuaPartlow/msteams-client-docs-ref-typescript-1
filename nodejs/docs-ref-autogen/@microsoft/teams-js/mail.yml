@@ -13,6 +13,7 @@ typeAliases:
 enums:
   - '@microsoft/teams-js.mail.ComposeMailType'
 package: '@microsoft/teams-js'
+previewState: alpha
 functions:
   - name: composeMail(ComposeMailParams)
     uid: '@microsoft/teams-js.mail.composeMail'
@@ -34,13 +35,13 @@ functions:
   - name: isSupported()
     uid: '@microsoft/teams-js.mail.isSupported'
     package: '@microsoft/teams-js'
-    summary: Checks if the mail capability is supported by the host
+    summary: ''
     remarks: ''
     isDeprecated: false
     syntax:
       content: 'function isSupported(): boolean'
       return:
-        description: boolean to represent whether the mail capability is supported
+        description: ''
         type: boolean
   - name: openMailItem(OpenMailItemParams)
     uid: '@microsoft/teams-js.mail.openMailItem'

@@ -1,310 +1,7 @@
-- name: '@microsoft/live-share'
-  items:
-    - name: Overview
-      uid: '@microsoft/live-share'
-    - uid: '@microsoft/live-share.EphemeralEvent'
-      name: EphemeralEvent
-      items: []
-    - uid: '@microsoft/live-share.EphemeralEventEvents'
-      name: EphemeralEventEvents
-      items: []
-    - uid: '@microsoft/live-share.EphemeralEventListener'
-      name: EphemeralEventListener
-      items: []
-    - uid: '@microsoft/live-share.EphemeralEventScope'
-      name: EphemeralEventScope
-      items: []
-    - uid: '@microsoft/live-share.EphemeralEventSource'
-      name: EphemeralEventSource
-      items: []
-    - uid: '@microsoft/live-share.EphemeralEventTarget'
-      name: EphemeralEventTarget
-      items: []
-    - uid: '@microsoft/live-share.EphemeralEventTimer'
-      name: EphemeralEventTimer
-      items: []
-    - uid: '@microsoft/live-share.EphemeralObjectSynchronizer'
-      name: EphemeralObjectSynchronizer
-      items: []
-    - uid: '@microsoft/live-share.EphemeralPresence'
-      name: EphemeralPresence
-      items: []
-    - uid: '@microsoft/live-share.EphemeralPresenceEvents'
-      name: EphemeralPresenceEvents
-      items: []
-    - uid: '@microsoft/live-share.EphemeralPresenceUser'
-      name: EphemeralPresenceUser
-      items: []
-    - uid: '@microsoft/live-share.EphemeralState'
-      name: EphemeralState
-      items: []
-    - uid: '@microsoft/live-share.EphemeralStateEvents'
-      name: EphemeralStateEvents
-      items: []
-    - uid: '@microsoft/live-share.EphemeralTelemetryLogger'
-      name: EphemeralTelemetryLogger
-      items: []
-    - uid: '@microsoft/live-share.EphemeralTimer'
-      name: EphemeralTimer
-      items: []
-    - uid: '@microsoft/live-share.EphemeralTimerEvents'
-      name: EphemeralTimerEvents
-      items: []
-    - uid: '@microsoft/live-share.GetSynchronizationState'
-      name: GetSynchronizationState
-      items: []
-    - uid: '@microsoft/live-share.IClientTimestamp'
-      name: IClientTimestamp
-      items: []
-    - uid: '@microsoft/live-share.IContainerRuntimeSignaler'
-      name: IContainerRuntimeSignaler
-      items: []
-    - uid: '@microsoft/live-share.IEphemeralEvent'
-      name: IEphemeralEvent
-      items: []
-    - uid: '@microsoft/live-share.IEphemeralEventEvents'
-      name: IEphemeralEventEvents
-      items: []
-    - uid: '@microsoft/live-share.IEphemeralPresenceEvents'
-      name: IEphemeralPresenceEvents
-      items: []
-    - uid: '@microsoft/live-share.IEphemeralStateEvents'
-      name: IEphemeralStateEvents
-      items: []
-    - uid: '@microsoft/live-share.IEphemeralTelemetryProperties'
-      name: IEphemeralTelemetryProperties
-      items: []
-    - uid: '@microsoft/live-share.IEphemeralTimerEvents'
-      name: IEphemeralTimerEvents
-      items: []
-    - uid: '@microsoft/live-share.IEvent'
-      name: IEvent
-      items: []
-    - uid: '@microsoft/live-share.IRuntimeSignaler'
-      name: IRuntimeSignaler
-      items: []
-    - uid: '@microsoft/live-share.ITeamsFluidClientOptions'
-      name: ITeamsFluidClientOptions
-      items: []
-    - uid: '@microsoft/live-share.ITimerConfig'
-      name: ITimerConfig
-      items: []
-    - uid: '@microsoft/live-share.OutgoingEphemeralEvent'
-      name: OutgoingEphemeralEvent
-      items: []
-    - uid: '@microsoft/live-share.PresenceState'
-      name: PresenceState
-      items: []
-    - uid: '@microsoft/live-share.TeamsFluidClient'
-      name: TeamsFluidClient
-      items: []
-    - uid: '@microsoft/live-share.UpdateSynchronizationState'
-      name: UpdateSynchronizationState
-      items: []
-    - uid: '@microsoft/live-share.UserMeetingRole'
-      name: UserMeetingRole
-      items: []
-- name: '@microsoft/live-share-canvas'
-  items:
-    - name: Overview
-      uid: '@microsoft/live-share-canvas'
-    - uid: '@microsoft/live-share-canvas.ArrowType'
-      name: ArrowType
-      items: []
-    - uid: '@microsoft/live-share-canvas.BrushTipShape'
-      name: BrushTipShape
-      items: []
-    - uid: '@microsoft/live-share-canvas.BrushType'
-      name: BrushType
-      items: []
-    - uid: '@microsoft/live-share-canvas.CanvasReferencePoint'
-      name: CanvasReferencePoint
-      items: []
-    - uid: '@microsoft/live-share-canvas.DryCanvas'
-      name: DryCanvas
-      items: []
-    - uid: '@microsoft/live-share-canvas.DryWetCanvas'
-      name: DryWetCanvas
-      items: []
-    - uid: '@microsoft/live-share-canvas.EventListener'
-      name: EventListener
-      items: []
-    - uid: '@microsoft/live-share-canvas.IAddPointsEventArgs'
-      name: IAddPointsEventArgs
-      items: []
-    - uid: '@microsoft/live-share-canvas.IAddRemoveStrokeOptions'
-      name: IAddRemoveStrokeOptions
-      items: []
-    - uid: '@microsoft/live-share-canvas.IBeginStrokeEventArgs'
-      name: IBeginStrokeEventArgs
-      items: []
-    - uid: '@microsoft/live-share-canvas.IBrush'
-      name: IBrush
-      items: []
-    - uid: '@microsoft/live-share-canvas.IColor'
-      name: IColor
-      items: []
-    - uid: '@microsoft/live-share-canvas.IMulticastEvent'
-      name: IMulticastEvent
-      items: []
-    - uid: '@microsoft/live-share-canvas.InkingCanvas'
-      name: InkingCanvas
-      items: []
-    - uid: '@microsoft/live-share-canvas.InkingManager'
-      name: InkingManager
-      items: []
-    - uid: '@microsoft/live-share-canvas.InkingTool'
-      name: InkingTool
-      items: []
-    - uid: '@microsoft/live-share-canvas.InputFilter'
-      name: InputFilter
-      items: []
-    - uid: '@microsoft/live-share-canvas.InputFilterCollection'
-      name: InputFilterCollection
-      items: []
-    - uid: '@microsoft/live-share-canvas.InputProvider'
-      name: InputProvider
-      items: []
-    - uid: '@microsoft/live-share-canvas.IPoint'
-      name: IPoint
-      items: []
-    - uid: '@microsoft/live-share-canvas.IPointerEvent'
-      name: IPointerEvent
-      items: []
-    - uid: '@microsoft/live-share-canvas.IPointerMovedEventArgs'
-      name: IPointerMovedEventArgs
-      items: []
-    - uid: '@microsoft/live-share-canvas.IPointerMoveEvent'
-      name: IPointerMoveEvent
-      items: []
-    - uid: '@microsoft/live-share-canvas.IPointerPoint'
-      name: IPointerPoint
-      items: []
-    - uid: '@microsoft/live-share-canvas.IRect'
-      name: IRect
-      items: []
-    - uid: '@microsoft/live-share-canvas.ISegment'
-      name: ISegment
-      items: []
-    - uid: '@microsoft/live-share-canvas.IStroke'
-      name: IStroke
-      items: []
-    - uid: '@microsoft/live-share-canvas.IStrokeCreationOptions'
-      name: IStrokeCreationOptions
-      items: []
-    - uid: '@microsoft/live-share-canvas.IUserInfo'
-      name: IUserInfo
-      items: []
-    - uid: '@microsoft/live-share-canvas.IWetStroke'
-      name: IWetStroke
-      items: []
-    - uid: '@microsoft/live-share-canvas.JitterFilter'
-      name: JitterFilter
-      items: []
-    - uid: '@microsoft/live-share-canvas.LaserPointerCanvas'
-      name: LaserPointerCanvas
-      items: []
-    - uid: '@microsoft/live-share-canvas.LiveCanvas'
-      name: LiveCanvas
-      items: []
-    - uid: '@microsoft/live-share-canvas.LiveCursor'
-      name: LiveCursor
-      items: []
-    - uid: '@microsoft/live-share-canvas.MulticastEvent'
-      name: MulticastEvent
-      items: []
-    - uid: '@microsoft/live-share-canvas.PointerInputProvider'
-      name: PointerInputProvider
-      items: []
-    - uid: '@microsoft/live-share-canvas.Stroke'
-      name: Stroke
-      items: []
-    - uid: '@microsoft/live-share-canvas.StrokeEndState'
-      name: StrokeEndState
-      items: []
-    - uid: '@microsoft/live-share-canvas.StrokeMode'
-      name: StrokeMode
-      items: []
-    - uid: '@microsoft/live-share-canvas.StrokeType'
-      name: StrokeType
-      items: []
-    - uid: '@microsoft/live-share-canvas.WetCanvas'
-      name: WetCanvas
-      items: []
-- name: '@microsoft/live-share-media'
-  items:
-    - name: Overview
-      uid: '@microsoft/live-share-media'
-    - uid: '@microsoft/live-share-media.CoordinationWaitPoint'
-      name: CoordinationWaitPoint
-      items: []
-    - uid: '@microsoft/live-share-media.EphemeralMediaSession'
-      name: EphemeralMediaSession
-      items: []
-    - uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator'
-      name: EphemeralMediaSessionCoordinator
-      items: []
-    - uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinatorSuspension'
-      name: EphemeralMediaSessionCoordinatorSuspension
-      items: []
-    - uid: '@microsoft/live-share-media.ExtendedMediaMetadata'
-      name: ExtendedMediaMetadata
-      items: []
-    - uid: '@microsoft/live-share-media.ExtendedMediaSessionAction'
-      name: ExtendedMediaSessionAction
-      items: []
-    - uid: '@microsoft/live-share-media.ExtendedMediaSessionActionDetails'
-      name: ExtendedMediaSessionActionDetails
-      items: []
-    - uid: '@microsoft/live-share-media.ExtendedMediaSessionPlaybackState'
-      name: ExtendedMediaSessionPlaybackState
-      items: []
-    - uid: '@microsoft/live-share-media.IMediaPlayer'
-      name: IMediaPlayer
-      items: []
-    - uid: '@microsoft/live-share-media.IMediaPlayerState'
-      name: IMediaPlayerState
-      items: []
-    - uid: '@microsoft/live-share-media.IMediaPlayerSynchronizerEvent'
-      name: IMediaPlayerSynchronizerEvent
-      items: []
-    - uid: '@microsoft/live-share-media.LevelType'
-      name: LevelType
-      items: []
-    - uid: '@microsoft/live-share-media.MediaPlayerSynchronizer'
-      name: MediaPlayerSynchronizer
-      items: []
-    - uid: '@microsoft/live-share-media.MediaPlayerSynchronizerEvents'
-      name: MediaPlayerSynchronizerEvents
-      items: []
-    - uid: '@microsoft/live-share-media.MediaSessionActionThrottler'
-      name: MediaSessionActionThrottler
-      items: []
-    - uid: '@microsoft/live-share-media.MediaSessionCoordinatorEvents'
-      name: MediaSessionCoordinatorEvents
-      items: []
-    - uid: '@microsoft/live-share-media.MediaSessionCoordinatorState'
-      name: MediaSessionCoordinatorState
-      items: []
-    - uid: '@microsoft/live-share-media.MediaSessionCoordinatorSuspension'
-      name: MediaSessionCoordinatorSuspension
-      items: []
-    - uid: '@microsoft/live-share-media.RepeatedActionThrottler'
-      name: RepeatedActionThrottler
-      items: []
-    - uid: '@microsoft/live-share-media.VolumeLimiter'
-      name: VolumeLimiter
-      items: []
 - name: '@microsoft/teams-js'
   items:
     - name: Overview
       uid: '@microsoft/teams-js'
-    - uid: '@microsoft/teams-js.ActionInfo'
-      name: ActionInfo
-      items: []
-    - uid: '@microsoft/teams-js.ActionObjectType'
-      name: ActionObjectType
-      items: []
     - name: app
       items:
         - name: Overview
@@ -383,19 +80,6 @@
         - uid: '@microsoft/teams-js.authentication.LegacyCallBacks'
           name: LegacyCallBacks
           items: []
-    - name: barCode
-      items:
-        - name: Overview
-          uid: '@microsoft/teams-js.barCode'
-        - uid: '@microsoft/teams-js.barCode.BarCodeConfig'
-          name: BarCodeConfig
-          items: []
-    - uid: '@microsoft/teams-js.BaseActionObject'
-      name: BaseActionObject
-      items: []
-    - uid: '@microsoft/teams-js.BotUrlDialogInfo'
-      name: BotUrlDialogInfo
-      items: []
     - name: calendar
       items:
         - name: Overview
@@ -419,9 +103,6 @@
     - uid: '@microsoft/teams-js.ChannelType'
       name: ChannelType
       items: []
-    - uid: '@microsoft/teams-js.chat'
-      name: chat
-      items: []
     - uid: '@microsoft/teams-js.ChildAppWindow'
       name: ChildAppWindow
       items: []
@@ -431,33 +112,14 @@
     - uid: '@microsoft/teams-js.DeepLinkParameters'
       name: DeepLinkParameters
       items: []
-    - name: dialog
-      items:
-        - name: Overview
-          uid: '@microsoft/teams-js.dialog'
-        - uid: '@microsoft/teams-js.dialog.bot'
-          name: bot
-          items: []
-        - uid: '@microsoft/teams-js.dialog.DialogSubmitHandler'
-          name: DialogSubmitHandler
-          items: []
-        - uid: '@microsoft/teams-js.dialog.ISdkResponse'
-          name: ISdkResponse
-          items: []
-        - uid: '@microsoft/teams-js.dialog.PostMessageChannel'
-          name: PostMessageChannel
-          items: []
-        - uid: '@microsoft/teams-js.dialog.update'
-          name: update
-          items: []
+    - uid: '@microsoft/teams-js.dialog'
+      name: dialog
+      items: []
     - uid: '@microsoft/teams-js.DialogDimension'
       name: DialogDimension
       items: []
     - uid: '@microsoft/teams-js.DialogInfo'
       name: DialogInfo
-      items: []
-    - uid: '@microsoft/teams-js.DialogSize'
-      name: DialogSize
       items: []
     - uid: '@microsoft/teams-js.ErrorCode'
       name: ErrorCode
@@ -474,16 +136,6 @@
     - uid: '@microsoft/teams-js.FrameInfo'
       name: FrameInfo
       items: []
-    - name: geoLocation
-      items:
-        - name: Overview
-          uid: '@microsoft/teams-js.geoLocation'
-        - uid: '@microsoft/teams-js.geoLocation.Location'
-          name: Location
-          items: []
-        - uid: '@microsoft/teams-js.geoLocation.map'
-          name: map
-          items: []
     - uid: '@microsoft/teams-js.HostClientType'
       name: HostClientType
       items: []
@@ -493,9 +145,13 @@
     - uid: '@microsoft/teams-js.IAppWindow'
       name: IAppWindow
       items: []
-    - uid: '@microsoft/teams-js.LiveShareHost'
-      name: LiveShareHost
-      items: []
+    - name: legacy
+      items:
+        - name: Overview
+          uid: '@microsoft/teams-js.legacy'
+        - uid: '@microsoft/teams-js.legacy.fullTrust'
+          name: fullTrust
+          items: []
     - uid: '@microsoft/teams-js.LocaleInfo'
       name: LocaleInfo
       items: []
@@ -509,9 +165,6 @@
         - uid: '@microsoft/teams-js.location.LocationProps'
           name: LocationProps
           items: []
-    - uid: '@microsoft/teams-js.M365ContentAction'
-      name: M365ContentAction
-      items: []
     - name: mail
       items:
         - name: Overview
@@ -574,9 +227,6 @@
         - uid: '@microsoft/teams-js.media.MediaChunk'
           name: MediaChunk
           items: []
-        - uid: '@microsoft/teams-js.media.MediaControllerEvent'
-          name: MediaControllerEvent
-          items: []
         - uid: '@microsoft/teams-js.media.MediaInputs'
           name: MediaInputs
           items: []
@@ -605,67 +255,29 @@
       items:
         - name: Overview
           uid: '@microsoft/teams-js.meeting'
-        - name: appShareButton
-          items:
-            - name: Overview
-              uid: '@microsoft/teams-js.meeting.appShareButton'
-            - uid: '@microsoft/teams-js.meeting.appShareButton.ShareInformation'
-              name: ShareInformation
-              items: []
-        - uid: '@microsoft/teams-js.meeting.CallType'
-          name: CallType
-          items: []
         - uid: '@microsoft/teams-js.meeting.IAppContentStageSharingCapabilities'
           name: IAppContentStageSharingCapabilities
           items: []
         - uid: '@microsoft/teams-js.meeting.IAppContentStageSharingState'
           name: IAppContentStageSharingState
           items: []
-        - uid: '@microsoft/teams-js.meeting.IRaiseHandState'
-          name: IRaiseHandState
-          items: []
-        - uid: '@microsoft/teams-js.meeting.ISpeakingState'
-          name: ISpeakingState
-          items: []
         - uid: '@microsoft/teams-js.meeting.LiveStreamState'
           name: LiveStreamState
-          items: []
-        - uid: '@microsoft/teams-js.meeting.MeetingReactionReceivedEventData'
-          name: MeetingReactionReceivedEventData
-          items: []
-        - uid: '@microsoft/teams-js.meeting.MeetingReactionType'
-          name: MeetingReactionType
           items: []
         - uid: '@microsoft/teams-js.meeting.MeetingType'
           name: MeetingType
           items: []
-        - uid: '@microsoft/teams-js.meeting.RaiseHandStateChangedEventData'
-          name: RaiseHandStateChangedEventData
-          items: []
-    - name: menus
-      items:
-        - name: Overview
-          uid: '@microsoft/teams-js.menus'
-        - uid: '@microsoft/teams-js.menus.ActionMenuParameters'
-          name: ActionMenuParameters
-          items: []
-        - uid: '@microsoft/teams-js.menus.DisplayMode'
-          name: DisplayMode
-          items: []
+    - uid: '@microsoft/teams-js.meetingRoom'
+      name: meetingRoom
+      items: []
     - uid: '@microsoft/teams-js.monetization'
       name: monetization
       items: []
     - uid: '@microsoft/teams-js.notifications'
       name: notifications
       items: []
-    - uid: '@microsoft/teams-js.OpenChatRequest'
-      name: OpenChatRequest
-      items: []
-    - uid: '@microsoft/teams-js.OpenGroupChatRequest'
-      name: OpenGroupChatRequest
-      items: []
-    - uid: '@microsoft/teams-js.OpenSingleChatRequest'
-      name: OpenSingleChatRequest
+    - uid: '@microsoft/teams-js.NotificationTypes'
+      name: NotificationTypes
       items: []
     - name: pages
       items:
@@ -690,13 +302,9 @@
             - uid: '@microsoft/teams-js.pages.config.SaveParameters'
               name: SaveParameters
               items: []
-        - name: currentApp
-          items:
-            - name: Overview
-              uid: '@microsoft/teams-js.pages.currentApp'
-            - uid: '@microsoft/teams-js.pages.currentApp.NavigateWithinAppParams'
-              name: NavigateWithinAppParams
-              items: []
+        - uid: '@microsoft/teams-js.pages.fullTrust'
+          name: fullTrust
+          items: []
         - uid: '@microsoft/teams-js.pages.InstanceConfig'
           name: InstanceConfig
           items: []
@@ -719,52 +327,14 @@
         - uid: '@microsoft/teams-js.people.PeoplePickerResult'
           name: PeoplePickerResult
           items: []
-    - name: profile
-      items:
-        - name: Overview
-          uid: '@microsoft/teams-js.profile'
-        - uid: '@microsoft/teams-js.profile.Modality'
-          name: Modality
-          items: []
-        - uid: '@microsoft/teams-js.profile.Persona'
-          name: Persona
-          items: []
-        - uid: '@microsoft/teams-js.profile.PersonaIdentifiers'
-          name: PersonaIdentifiers
-          items: []
-        - uid: '@microsoft/teams-js.profile.ShowProfileRequest'
-          name: ShowProfileRequest
-          items: []
-        - uid: '@microsoft/teams-js.profile.TriggerType'
-          name: TriggerType
-          items: []
-    - uid: '@microsoft/teams-js.Rectangle'
-      name: Rectangle
+    - uid: '@microsoft/teams-js.remoteCamera'
+      name: remoteCamera
       items: []
     - uid: '@microsoft/teams-js.SdkError'
       name: SdkError
       items: []
-    - name: search
-      items:
-        - name: Overview
-          uid: '@microsoft/teams-js.search'
-        - uid: '@microsoft/teams-js.search.SearchQuery'
-          name: SearchQuery
-          items: []
-        - uid: '@microsoft/teams-js.search.SearchQueryHandler'
-          name: SearchQueryHandler
-          items: []
-    - uid: '@microsoft/teams-js.SecondaryId'
-      name: SecondaryId
-      items: []
-    - uid: '@microsoft/teams-js.SecondaryM365ContentIdName'
-      name: SecondaryM365ContentIdName
-      items: []
     - uid: '@microsoft/teams-js.settings'
       name: settings
-      items: []
-    - uid: '@microsoft/teams-js.ShareDeepLinkParameters'
-      name: ShareDeepLinkParameters
       items: []
     - name: sharing
       items:
@@ -785,13 +355,9 @@
         - uid: '@microsoft/teams-js.sharing.IURLContent'
           name: IURLContent
           items: []
-    - name: stageView
-      items:
-        - name: Overview
-          uid: '@microsoft/teams-js.stageView'
-        - uid: '@microsoft/teams-js.stageView.StageViewParams'
-          name: StageViewParams
-          items: []
+    - uid: '@microsoft/teams-js.ShowNotificationParameters'
+      name: ShowNotificationParameters
+      items: []
     - uid: '@microsoft/teams-js.TabInformation'
       name: TabInformation
       items: []
@@ -815,9 +381,6 @@
       items: []
     - uid: '@microsoft/teams-js.TeamType'
       name: TeamType
-      items: []
-    - uid: '@microsoft/teams-js.UrlDialogInfo'
-      name: UrlDialogInfo
       items: []
     - uid: '@microsoft/teams-js.UserTeamRole'
       name: UserTeamRole
@@ -844,181 +407,3 @@
         - uid: '@microsoft/teams-js.video.VideoFrameFormat'
           name: VideoFrameFormat
           items: []
-    - uid: '@microsoft/teams-js.webStorage'
-      name: webStorage
-      items: []
-- name: '@microsoft/teamsfx'
-  items:
-    - name: Overview
-      uid: '@microsoft/teamsfx'
-    - uid: '@microsoft/teamsfx.AdaptiveCardResponse'
-      name: AdaptiveCardResponse
-      items: []
-    - uid: '@microsoft/teamsfx.ApiKeyLocation'
-      name: ApiKeyLocation
-      items: []
-    - uid: '@microsoft/teamsfx.ApiKeyProvider'
-      name: ApiKeyProvider
-      items: []
-    - uid: '@microsoft/teamsfx.AppCredential'
-      name: AppCredential
-      items: []
-    - uid: '@microsoft/teamsfx.AppCredentialAuthConfig'
-      name: AppCredentialAuthConfig
-      items: []
-    - uid: '@microsoft/teamsfx.AuthenticationConfiguration'
-      name: AuthenticationConfiguration
-      items: []
-    - uid: '@microsoft/teamsfx.AuthProvider'
-      name: AuthProvider
-      items: []
-    - uid: '@microsoft/teamsfx.BasicAuthProvider'
-      name: BasicAuthProvider
-      items: []
-    - uid: '@microsoft/teamsfx.BearerTokenAuthProvider'
-      name: BearerTokenAuthProvider
-      items: []
-    - uid: '@microsoft/teamsfx.BotSsoConfig'
-      name: BotSsoConfig
-      items: []
-    - uid: '@microsoft/teamsfx.BotSsoExecutionActivityHandler'
-      name: BotSsoExecutionActivityHandler
-      items: []
-    - uid: '@microsoft/teamsfx.BotSsoExecutionDialog'
-      name: BotSsoExecutionDialog
-      items: []
-    - uid: '@microsoft/teamsfx.BotSsoExecutionDialogHandler'
-      name: BotSsoExecutionDialogHandler
-      items: []
-    - uid: '@microsoft/teamsfx.CardActionBot'
-      name: CardActionBot
-      items: []
-    - uid: '@microsoft/teamsfx.CardActionOptions'
-      name: CardActionOptions
-      items: []
-    - uid: '@microsoft/teamsfx.CertificateAuthProvider'
-      name: CertificateAuthProvider
-      items: []
-    - uid: '@microsoft/teamsfx.Channel'
-      name: Channel
-      items: []
-    - uid: '@microsoft/teamsfx.CommandBot'
-      name: CommandBot
-      items: []
-    - uid: '@microsoft/teamsfx.CommandMessage'
-      name: CommandMessage
-      items: []
-    - uid: '@microsoft/teamsfx.CommandOptions'
-      name: CommandOptions
-      items: []
-    - uid: '@microsoft/teamsfx.ConversationBot'
-      name: ConversationBot
-      items: []
-    - uid: '@microsoft/teamsfx.ConversationOptions'
-      name: ConversationOptions
-      items: []
-    - uid: '@microsoft/teamsfx.ErrorCode'
-      name: ErrorCode
-      items: []
-    - uid: '@microsoft/teamsfx.ErrorWithCode'
-      name: ErrorWithCode
-      items: []
-    - uid: '@microsoft/teamsfx.GetTeamsUserTokenOptions'
-      name: GetTeamsUserTokenOptions
-      items: []
-    - uid: '@microsoft/teamsfx.IdentityType'
-      name: IdentityType
-      items: []
-    - uid: '@microsoft/teamsfx.InvokeResponseErrorCode'
-      name: InvokeResponseErrorCode
-      items: []
-    - uid: '@microsoft/teamsfx.InvokeResponseFactory'
-      name: InvokeResponseFactory
-      items: []
-    - uid: '@microsoft/teamsfx.LogFunction'
-      name: LogFunction
-      items: []
-    - uid: '@microsoft/teamsfx.Logger'
-      name: Logger
-      items: []
-    - uid: '@microsoft/teamsfx.LogLevel'
-      name: LogLevel
-      items: []
-    - uid: '@microsoft/teamsfx.Member'
-      name: Member
-      items: []
-    - uid: '@microsoft/teamsfx.MessageBuilder'
-      name: MessageBuilder
-      items: []
-    - uid: '@microsoft/teamsfx.MessageExtensionTokenResponse'
-      name: MessageExtensionTokenResponse
-      items: []
-    - uid: '@microsoft/teamsfx.MessageResponse'
-      name: MessageResponse
-      items: []
-    - uid: '@microsoft/teamsfx.MsGraphAuthProvider'
-      name: MsGraphAuthProvider
-      items: []
-    - uid: '@microsoft/teamsfx.NotificationBot'
-      name: NotificationBot
-      items: []
-    - uid: '@microsoft/teamsfx.NotificationOptions_2'
-      name: NotificationOptions_2
-      items: []
-    - uid: '@microsoft/teamsfx.NotificationTarget'
-      name: NotificationTarget
-      items: []
-    - uid: '@microsoft/teamsfx.NotificationTargetStorage'
-      name: NotificationTargetStorage
-      items: []
-    - uid: '@microsoft/teamsfx.NotificationTargetType'
-      name: NotificationTargetType
-      items: []
-    - uid: '@microsoft/teamsfx.OnBehalfOfCredentialAuthConfig'
-      name: OnBehalfOfCredentialAuthConfig
-      items: []
-    - uid: '@microsoft/teamsfx.OnBehalfOfUserCredential'
-      name: OnBehalfOfUserCredential
-      items: []
-    - uid: '@microsoft/teamsfx.SearchScope'
-      name: SearchScope
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsBotInstallation'
-      name: TeamsBotInstallation
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsBotSsoPrompt'
-      name: TeamsBotSsoPrompt
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsBotSsoPromptSettings'
-      name: TeamsBotSsoPromptSettings
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsBotSsoPromptTokenResponse'
-      name: TeamsBotSsoPromptTokenResponse
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsFx'
-      name: TeamsFx
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsFxAdaptiveCardActionHandler'
-      name: TeamsFxAdaptiveCardActionHandler
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsFxBotCommandHandler'
-      name: TeamsFxBotCommandHandler
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsFxBotSsoCommandHandler'
-      name: TeamsFxBotSsoCommandHandler
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsFxConfiguration'
-      name: TeamsFxConfiguration
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsUserCredential'
-      name: TeamsUserCredential
-      items: []
-    - uid: '@microsoft/teamsfx.TeamsUserCredentialAuthConfig'
-      name: TeamsUserCredentialAuthConfig
-      items: []
-    - uid: '@microsoft/teamsfx.TriggerPatterns'
-      name: TriggerPatterns
-      items: []
-    - uid: '@microsoft/teamsfx.UserInfo'
-      name: UserInfo
-      items: []

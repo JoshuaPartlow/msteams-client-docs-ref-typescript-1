@@ -121,6 +121,24 @@ inheritedProperties:
       [File.size](xref:@microsoft/teams-js.media.File.size)
 methods:
   - name: 'getMedia((error: SdkError, blob: Blob) => void)'
+    uid: '@microsoft/teams-js.media.Media.getMedia_1'
+    package: '@microsoft/teams-js'
+    summary: >-
+      Gets the media in chunks irrespective of size, these chunks are assembled
+      and sent back to the webapp as file/blob
+    remarks: ''
+    isDeprecated: true
+    customDeprecatedMessage: >-
+      As of 2.0.0-beta.1, please use [media.Media.getMedia():
+      Promise\<Blob\>](xref:@microsoft/teams-js.media.Media.getMedia) instead.
+    syntax:
+      content: 'function getMedia(callback: (error: SdkError, blob: Blob) => void)'
+      parameters:
+        - id: callback
+          type: '(error: SdkError, blob: Blob) =&gt; void'
+          description: |
+            returns blob of media
+  - name: getMedia()
     uid: '@microsoft/teams-js.media.Media.getMedia'
     package: '@microsoft/teams-js'
     summary: >-
@@ -129,13 +147,8 @@ methods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function getMedia(callback: (error: SdkError, blob: Blob) => void)'
-      parameters:
-        - id: callback
-          type: '(error: SdkError, blob: Blob) =&gt; void'
-          description: >
-            callback is called with the @see SdkError if there is an error
-
-            If error is null or undefined, the callback will be called with @see
-            Blob.
+      content: 'function getMedia(): Promise<Blob>'
+      return:
+        description: A promise resolved with the @see Blob or rejected with a @see SdkError
+        type: Promise&lt;Blob&gt;
 extends: <xref uid="@microsoft/teams-js.media.File" />

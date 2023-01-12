@@ -2,29 +2,16 @@
 name: Context
 uid: '@microsoft/teams-js.app.Context'
 package: '@microsoft/teams-js'
-summary: Represents structure of the received context message.
+summary: Represents structure of the context message received
 fullName: Context
 remarks: ''
 isDeprecated: false
 type: interface
 properties:
-  - name: actionInfo
-    uid: '@microsoft/teams-js.app.Context.actionInfo'
-    package: '@microsoft/teams-js'
-    summary: Content Action Info
-    fullName: actionInfo
-    remarks: ''
-    previewState: beta
-    isDeprecated: false
-    syntax:
-      content: 'actionInfo?: ActionInfo'
-      return:
-        description: ''
-        type: <xref uid="@microsoft/teams-js.ActionInfo" />
   - name: app
     uid: '@microsoft/teams-js.app.Context.app'
     package: '@microsoft/teams-js'
-    summary: Properties about the current session for your app
+    summary: Info of the app
     fullName: app
     remarks: ''
     isDeprecated: false
@@ -36,9 +23,7 @@ properties:
   - name: channel
     uid: '@microsoft/teams-js.app.Context.channel'
     package: '@microsoft/teams-js'
-    summary: >-
-      When running in the context of a Teams channel, provides information about
-      the channel, else `undefined`
+    summary: Info of the Microsoft Teams channel
     fullName: channel
     remarks: ''
     isDeprecated: false
@@ -50,9 +35,7 @@ properties:
   - name: chat
     uid: '@microsoft/teams-js.app.Context.chat'
     package: '@microsoft/teams-js'
-    summary: >-
-      When running in the context of a Teams chat, provides information about
-      the chat, else `undefined`
+    summary: Info of the Microsoft Teams chat
     fullName: chat
     remarks: ''
     isDeprecated: false
@@ -64,9 +47,7 @@ properties:
   - name: meeting
     uid: '@microsoft/teams-js.app.Context.meeting'
     package: '@microsoft/teams-js'
-    summary: >-
-      When running in the context of a Teams meeting, provides information about
-      the meeting, else `undefined`
+    summary: Info of the Microsoft Teams meeting
     fullName: meeting
     remarks: ''
     isDeprecated: false
@@ -78,7 +59,7 @@ properties:
   - name: page
     uid: '@microsoft/teams-js.app.Context.page'
     package: '@microsoft/teams-js'
-    summary: Info about the current page context hosting your app
+    summary: Info of the current page of App
     fullName: page
     remarks: ''
     isDeprecated: false
@@ -90,10 +71,7 @@ properties:
   - name: sharepoint
     uid: '@microsoft/teams-js.app.Context.sharepoint'
     package: '@microsoft/teams-js'
-    summary: >-
-      When hosted in SharePoint, this is the [SharePoint
-      PageContext](https://learn.microsoft.com/en-us/javascript/api/sp-page-context/pagecontext?view=sp-typescript-latest),
-      else `undefined`
+    summary: SharePoint context. This is only available when hosted in SharePoint.
     fullName: sharepoint
     remarks: ''
     isDeprecated: false
@@ -105,12 +83,7 @@ properties:
   - name: sharePointSite
     uid: '@microsoft/teams-js.app.Context.sharePointSite'
     package: '@microsoft/teams-js'
-    summary: >-
-      When running in Teams for an organization with a tenant, provides
-      information about the SharePoint site associated with the team.
-
-      Will be `undefined` when not running in Teams for an organization with a
-      tenant.
+    summary: Info of the sharePoint site associated with the team.
     fullName: sharePointSite
     remarks: ''
     isDeprecated: false
@@ -122,11 +95,7 @@ properties:
   - name: team
     uid: '@microsoft/teams-js.app.Context.team'
     package: '@microsoft/teams-js'
-    summary: >-
-      When running in Teams, provides information about the Team context in
-      which your app is running.
-
-      Will be `undefined` when not running in Teams.
+    summary: Info of the Microsoft Teams team
     fullName: team
     remarks: ''
     isDeprecated: false
@@ -138,11 +107,7 @@ properties:
   - name: user
     uid: '@microsoft/teams-js.app.Context.user'
     package: '@microsoft/teams-js'
-    summary: >-
-      Info about the currently logged in user running the app.
-
-      If the current user is not logged in/authenticated (e.g. a meeting app
-      running for an anonymously-joined partcipant) this will be `undefined`.
+    summary: Info of the user
     fullName: user
     remarks: ''
     isDeprecated: false

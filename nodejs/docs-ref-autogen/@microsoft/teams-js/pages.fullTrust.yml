@@ -1,14 +1,14 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.notifications'
-name: notifications
+uid: '@microsoft/teams-js.pages.fullTrust'
+name: fullTrust
 type: module
 package: '@microsoft/teams-js'
 summary: ''
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.notifications.isSupported'
+    uid: '@microsoft/teams-js.pages.fullTrust.isSupported'
     package: '@microsoft/teams-js'
-    summary: ''
+    summary: Checks if pages.fullTrust capability is supported currently
     remarks: ''
     isDeprecated: false
     syntax:

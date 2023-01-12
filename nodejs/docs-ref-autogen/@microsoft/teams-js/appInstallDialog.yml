@@ -6,19 +6,18 @@ type: module
 interfaces:
   - '@microsoft/teams-js.appInstallDialog.OpenAppInstallDialogParams'
 package: '@microsoft/teams-js'
+previewState: alpha
 functions:
   - name: isSupported()
     uid: '@microsoft/teams-js.appInstallDialog.isSupported'
     package: '@microsoft/teams-js'
-    summary: Checks if the appInstallDialog capability is supported by the host
+    summary: ''
     remarks: ''
     isDeprecated: false
     syntax:
       content: 'function isSupported(): boolean'
       return:
-        description: >-
-          boolean to represent whether the appInstallDialog capability is
-          supported
+        description: ''
         type: boolean
   - name: openAppInstallDialog(OpenAppInstallDialogParams)
     uid: '@microsoft/teams-js.appInstallDialog.openAppInstallDialog'

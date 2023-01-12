@@ -1,12 +1,13 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.notifications'
-name: notifications
+uid: '@microsoft/teams-js.meetingRoom'
+name: meetingRoom
 type: module
 package: '@microsoft/teams-js'
 summary: ''
+previewState: alpha
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.notifications.isSupported'
+    uid: '@microsoft/teams-js.meetingRoom.isSupported'
     package: '@microsoft/teams-js'
     summary: ''
     remarks: ''

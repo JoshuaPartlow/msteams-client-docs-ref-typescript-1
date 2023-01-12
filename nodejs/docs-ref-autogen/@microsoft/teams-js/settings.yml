@@ -12,9 +12,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.getConfig():
-      Promise\<InstanceConfig\>](xref:@microsoft/teams-js.pages.getConfig)
-      instead.
+      As of 2.0.0-beta.1, please use [pages.config.getConfig():
+      Promise\<Config\>](xref:pages.config.getConfig) instead.
 
 
       Gets the settings for the current instance.
@@ -33,8 +32,9 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.config.registerOnRemoveHandler(handler:
-      (evt: RemoveEvent) => void):
+      As of 2.0.0-beta.1, please use
+      [pages.config.registerOnRemoveHandler(handler: (evt: RemoveEvent) =>
+      void):
       void](xref:@microsoft/teams-js.pages.config.registerOnRemoveHandler)
       instead.
 
@@ -63,8 +63,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.config.registerOnSaveHandler(handler: (evt:
-      SaveEvent) => void):
+      As of 2.0.0-beta.1, please use
+      [pages.config.registerOnSaveHandler(handler: (evt: SaveEvent) => void):
       void](xref:@microsoft/teams-js.pages.config.registerOnSaveHandler)
       instead.
 
@@ -93,8 +93,9 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.config.setConfig(instanceSettings: Config):
-      Promise\<void\>](xref:@microsoft/teams-js.pages.config.setConfig) instead.
+      As of 2.0.0-beta.1, please use [pages.config.setConfig(instanceSettings:
+      Config): Promise\<void\>](xref:@microsoft/teams-js.pages.config.setConfig)
+      instead.
 
 
       Sets the settings for the current instance.
@@ -119,9 +120,9 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.config.setValidityState(validityState:
-      boolean): void](xref:@microsoft/teams-js.pages.config.setValidityState)
-      instead.
+      As of 2.0.0-beta.1, please use
+      [pages.config.setValidityState(validityState: boolean):
+      void](xref:@microsoft/teams-js.pages.config.setValidityState) instead.
 
 
       Sets the validity state for the settings.

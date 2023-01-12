@@ -11,69 +11,16 @@ interfaces:
   - '@microsoft/teams-js.sharing.IShareRequest'
   - '@microsoft/teams-js.sharing.IURLContent'
 package: '@microsoft/teams-js'
+previewState: alpha
 functions:
   - name: isSupported()
     uid: '@microsoft/teams-js.sharing.isSupported'
     package: '@microsoft/teams-js'
-    summary: Checks if the sharing capability is supported by the host
+    summary: ''
     remarks: ''
     isDeprecated: false
     syntax:
       content: 'function isSupported(): boolean'
       return:
-        description: boolean to represent whether the sharing capability is supported
+        description: ''
         type: boolean
-  - name: shareWebContent(IShareRequest<IShareRequestContentType>)
-    uid: '@microsoft/teams-js.sharing.shareWebContent'
-    package: '@microsoft/teams-js'
-    summary: |-
-      Feature is under development
-      Opens a share dialog for web content
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: >-
-        function shareWebContent(shareWebContentRequest:
-        IShareRequest<IShareRequestContentType>): Promise<void>
-      parameters:
-        - id: shareWebContentRequest
-          type: >-
-            <xref uid="@microsoft/teams-js.sharing.IShareRequest" />&lt;<xref
-            uid="@microsoft/teams-js.sharing.IShareRequestContentType" />&gt;
-          description: web content info
-      return:
-        description: Promise that will be fulfilled when the operation has completed
-        type: Promise&lt;void&gt;
-  - name: >-
-      shareWebContent(IShareRequest<IShareRequestContentType>, (err?: SdkError)
-      => void)
-    uid: '@microsoft/teams-js.sharing.shareWebContent_1'
-    package: '@microsoft/teams-js'
-    summary: ''
-    remarks: ''
-    isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, please use [sharing.shareWebContent(shareWebContentRequest:
-      IShareRequest\<IShareRequestContentType\>):
-      Promise\<void\>](xref:@microsoft/teams-js.sharing.shareWebContent)
-      instead.
-
-
-      Feature is under development
-
-      Opens a share dialog for web content
-    syntax:
-      content: >-
-        function shareWebContent(shareWebContentRequest:
-        IShareRequest<IShareRequestContentType>, callback: (err?: SdkError) =>
-        void)
-      parameters:
-        - id: shareWebContentRequest
-          type: >-
-            <xref uid="@microsoft/teams-js.sharing.IShareRequest" />&lt;<xref
-            uid="@microsoft/teams-js.sharing.IShareRequestContentType" />&gt;
-          description: web content info
-        - id: callback
-          type: '(err?: SdkError) =&gt; void'
-          description: |
-            optional callback

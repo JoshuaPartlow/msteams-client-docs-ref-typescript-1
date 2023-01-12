@@ -3,20 +3,18 @@ uid: '@microsoft/teams-js.pages.appButton'
 name: appButton
 type: module
 package: '@microsoft/teams-js'
-summary: Provides APIs to interact with the app button part of the SDK.
+summary: Namespace to interact with the app button part of the SDK.
 functions:
   - name: isSupported()
     uid: '@microsoft/teams-js.pages.appButton.isSupported'
     package: '@microsoft/teams-js'
-    summary: Checks if pages.appButton capability is supported by the host
+    summary: Checks if pages.appButton capability is supported currently
     remarks: ''
     isDeprecated: false
     syntax:
       content: 'function isSupported(): boolean'
       return:
-        description: >-
-          boolean to represent whether the pages.appButton capability is
-          supported
+        description: ''
         type: boolean
   - name: onClick(() => void)
     uid: '@microsoft/teams-js.pages.appButton.onClick'

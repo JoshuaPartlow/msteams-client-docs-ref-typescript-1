@@ -2,7 +2,7 @@
 name: IFailedRequest
 uid: '@microsoft/teams-js.app.IFailedRequest'
 package: '@microsoft/teams-js'
-summary: Represents the failed request sent during a failed app initialization.
+summary: ''
 fullName: IFailedRequest
 remarks: ''
 isDeprecated: false
@@ -11,7 +11,7 @@ properties:
   - name: message
     uid: '@microsoft/teams-js.app.IFailedRequest.message'
     package: '@microsoft/teams-js'
-    summary: This property is currently unused.
+    summary: ''
     fullName: message
     remarks: ''
     isDeprecated: false
@@ -23,7 +23,7 @@ properties:
   - name: reason
     uid: '@microsoft/teams-js.app.IFailedRequest.reason'
     package: '@microsoft/teams-js'
-    summary: The reason for the failure
+    summary: ''
     fullName: reason
     remarks: ''
     isDeprecated: false

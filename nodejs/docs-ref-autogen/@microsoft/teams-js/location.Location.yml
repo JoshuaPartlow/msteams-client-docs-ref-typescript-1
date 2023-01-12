@@ -5,8 +5,7 @@ package: '@microsoft/teams-js'
 summary: ''
 fullName: Location
 remarks: ''
-isDeprecated: true
-customDeprecatedMessage: Data struture to represent the location information
+isDeprecated: false
 type: interface
 properties:
   - name: accuracy

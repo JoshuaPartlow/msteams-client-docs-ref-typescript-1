@@ -18,3 +18,11 @@ methods:
     isDeprecated: false
     syntax:
       content: function onRecordingStarted()
+  - name: onRecordingStopped()
+    uid: '@microsoft/teams-js.media.VideoControllerCallback.onRecordingStopped'
+    package: '@microsoft/teams-js'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: function onRecordingStopped()

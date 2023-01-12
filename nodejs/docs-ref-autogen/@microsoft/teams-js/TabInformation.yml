@@ -5,6 +5,7 @@ package: '@microsoft/teams-js'
 summary: Represents information about tabs for an app
 fullName: TabInformation
 remarks: ''
+previewState: alpha
 isDeprecated: false
 type: interface
 properties:

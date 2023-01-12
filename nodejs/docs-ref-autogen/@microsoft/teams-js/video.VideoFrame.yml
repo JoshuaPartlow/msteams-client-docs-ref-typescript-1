@@ -2,10 +2,9 @@
 name: VideoFrame
 uid: '@microsoft/teams-js.video.VideoFrame'
 package: '@microsoft/teams-js'
-summary: Represents a video frame
+summary: Represents a video frame.
 fullName: VideoFrame
 remarks: ''
-previewState: beta
 isDeprecated: false
 type: interface
 properties:
@@ -36,7 +35,7 @@ properties:
   - name: height
     uid: '@microsoft/teams-js.video.VideoFrame.height'
     package: '@microsoft/teams-js'
-    summary: Video frame height
+    summary: Video frame height.
     fullName: height
     remarks: ''
     isDeprecated: false
@@ -69,22 +68,10 @@ properties:
       return:
         description: ''
         type: number
-  - name: timestamp
-    uid: '@microsoft/teams-js.video.VideoFrame.timestamp'
-    package: '@microsoft/teams-js'
-    summary: The time stamp of the current video frame
-    fullName: timestamp
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'timestamp?: number'
-      return:
-        description: ''
-        type: number
   - name: width
     uid: '@microsoft/teams-js.video.VideoFrame.width'
     package: '@microsoft/teams-js'
-    summary: Video frame width
+    summary: Video frame width.
     fullName: width
     remarks: ''
     isDeprecated: false

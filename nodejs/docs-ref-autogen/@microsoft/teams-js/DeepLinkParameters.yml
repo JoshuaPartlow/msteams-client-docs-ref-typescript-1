@@ -5,10 +5,7 @@ package: '@microsoft/teams-js'
 summary: ''
 fullName: DeepLinkParameters
 remarks: ''
-isDeprecated: true
-customDeprecatedMessage: >-
-  As of 2.0.0, please use <xref:@microsoft/teams-js.ShareDeepLinkParameters>
-  instead.
+isDeprecated: false
 type: interface
 properties:
   - name: subEntityId

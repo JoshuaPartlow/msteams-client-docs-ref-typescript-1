@@ -1,12 +1,13 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.notifications'
-name: notifications
+uid: '@microsoft/teams-js.remoteCamera'
+name: remoteCamera
 type: module
 package: '@microsoft/teams-js'
 summary: ''
+previewState: alpha
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.notifications.isSupported'
+    uid: '@microsoft/teams-js.remoteCamera.isSupported'
     package: '@microsoft/teams-js'
     summary: ''
     remarks: ''

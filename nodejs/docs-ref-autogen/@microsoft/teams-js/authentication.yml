@@ -13,6 +13,7 @@ interfaces:
   - '@microsoft/teams-js.authentication.AuthTokenRequestParameters'
   - '@microsoft/teams-js.authentication.LegacyCallBacks'
 package: '@microsoft/teams-js'
+previewState: beta
 functions:
   - name: authenticate(AuthenticateParameters)
     uid: '@microsoft/teams-js.authentication.authenticate_1'
@@ -21,7 +22,7 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use
+      As of 2.0.0-beta.1, please use
       [authentication.authenticate(authenticateParameters:
       AuthenticatePopUpParameters):
       Promise\<string\>](xref:@microsoft/teams-js.authentication.authenticate)
@@ -73,7 +74,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [authentication.getAuthToken(authTokenRequest:
+      As of 2.0.0-beta.1, please use
+      [authentication.getAuthToken(authTokenRequest:
       AuthTokenRequestParameters):
       Promise\<string\>](xref:@microsoft/teams-js.authentication.getAuthToken)
       instead.
@@ -177,9 +179,8 @@ functions:
     summary: ''
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, this function has been deprecated in favor of a Promise-based
-      pattern.
+    customDeprecatedMessage: |-
+      As of 2.0.0-beta.1.
 
       Registers the authentication Communication.handlers
     syntax:
