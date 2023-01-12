@@ -366,6 +366,9 @@
     - uid: '@microsoft/teams-js.IAppWindow'
       name: IAppWindow
       items: []
+    - uid: '@microsoft/teams-js.LiveShareHost'
+      name: LiveShareHost
+      items: []
     - uid: '@microsoft/teams-js.LocaleInfo'
       name: LocaleInfo
       items: []
@@ -475,6 +478,13 @@
       items:
         - name: Overview
           uid: '@microsoft/teams-js.meeting'
+        - name: appShareButton
+          items:
+            - name: Overview
+              uid: '@microsoft/teams-js.meeting.appShareButton'
+            - uid: '@microsoft/teams-js.meeting.appShareButton.ShareInformation'
+              name: ShareInformation
+              items: []
         - uid: '@microsoft/teams-js.meeting.CallType'
           name: CallType
           items: []
@@ -601,6 +611,9 @@
         - uid: '@microsoft/teams-js.profile.TriggerType'
           name: TriggerType
           items: []
+    - uid: '@microsoft/teams-js.Rectangle'
+      name: Rectangle
+      items: []
     - uid: '@microsoft/teams-js.SdkError'
       name: SdkError
       items: []
