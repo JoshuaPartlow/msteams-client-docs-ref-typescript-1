@@ -5,8 +5,12 @@ package: '@microsoft/live-share-media'
 summary: ''
 fullName: ExtendedMediaSessionAction
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type ExtendedMediaSessionAction = MediaSessionAction | "settrack" | "wait" |
-  "catchup" | "datachange" | "blocked"
+syntax: |
+  type ExtendedMediaSessionAction =
+    | MediaSessionAction
+    | "settrack"
+    | "wait"
+    | "catchup"
+    | "datachange"
+    | "blocked"

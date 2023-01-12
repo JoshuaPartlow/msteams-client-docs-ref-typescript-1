@@ -12,7 +12,6 @@ summary: >-
   in sync with the group.
 fullName: EphemeralMediaSessionCoordinator
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -38,7 +37,6 @@ properties:
 
       to play/pause media, you should use "role based verification" to enforce
       those policies.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'canPlayPause: boolean'
@@ -69,7 +67,6 @@ properties:
 
       to change the playback position, you should use "role based verification"
       to enforce those policies.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'canSeek: boolean'
@@ -96,7 +93,6 @@ properties:
 
       to change tracks, you should use "role based verification" to enforce
       those policies.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'canSetTrack: boolean'
@@ -128,89 +124,18 @@ properties:
       to enforce those
 
       policies.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'canSetTrackData: boolean'
       return:
         description: ''
         type: boolean
-  - name: captureRejections
-    uid: >-
-      @microsoft/live-share-media.EphemeralMediaSessionCoordinator.captureRejections
-    package: '@microsoft/live-share-media'
-    summary: Sets or gets the default captureRejection value for all emitters.
-    fullName: captureRejections
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'static captureRejections: boolean'
-      return:
-        description: ''
-        type: boolean
-  - name: captureRejectionSymbol
-    uid: >-
-      @microsoft/live-share-media.EphemeralMediaSessionCoordinator.captureRejectionSymbol
-    package: '@microsoft/live-share-media'
-    summary: ''
-    fullName: captureRejectionSymbol
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'static captureRejectionSymbol: Object'
-      return:
-        description: ''
-        type: Object
-  - name: defaultMaxListeners
-    uid: >-
-      @microsoft/live-share-media.EphemeralMediaSessionCoordinator.defaultMaxListeners
-    package: '@microsoft/live-share-media'
-    summary: ''
-    fullName: defaultMaxListeners
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'static defaultMaxListeners: number'
-      return:
-        description: ''
-        type: number
-  - name: errorMonitor
-    uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.errorMonitor'
-    package: '@microsoft/live-share-media'
-    summary: >
-      This symbol shall be used to install a listener for only monitoring
-      `'error'`
-
-      events. Listeners installed using this symbol are called before the
-      regular
-
-      `'error'` listeners are called.
-
-      Installing a listener using this symbol does not change the behavior once
-      an
-
-      `'error'` event is emitted, therefore the process will still crash if no
-
-      regular `'error'` listener is installed.
-    fullName: errorMonitor
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'static errorMonitor: Object'
-      return:
-        description: ''
-        type: Object
   - name: isSuspended
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.isSuspended'
     package: '@microsoft/live-share-media'
     summary: Returns true if the local client is in a suspended state.
     fullName: isSuspended
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: boolean isSuspended
@@ -231,7 +156,6 @@ properties:
 
 
       Defaults to a value of `1` second.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: number maxPlaybackDrift
@@ -249,20 +173,88 @@ properties:
       seconds.
     fullName: positionUpdateInterval
     remarks: Defaults to a value of `2` seconds.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: number positionUpdateInterval
       return:
         description: ''
         type: number
+inheritedProperties:
+  - name: captureRejections
+    uid: >-
+      @microsoft/live-share-media.EphemeralMediaSessionCoordinator.captureRejections
+    package: '@microsoft/live-share-media'
+    summary: Sets or gets the default captureRejection value for all emitters.
+    fullName: captureRejections
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'static captureRejections: boolean'
+      return:
+        description: ''
+        type: boolean
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.captureRejections
+  - name: captureRejectionSymbol
+    uid: >-
+      @microsoft/live-share-media.EphemeralMediaSessionCoordinator.captureRejectionSymbol
+    package: '@microsoft/live-share-media'
+    summary: ''
+    fullName: captureRejectionSymbol
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'static captureRejectionSymbol: Object'
+      return:
+        description: ''
+        type: Object
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.captureRejectionSymbol
+  - name: defaultMaxListeners
+    uid: >-
+      @microsoft/live-share-media.EphemeralMediaSessionCoordinator.defaultMaxListeners
+    package: '@microsoft/live-share-media'
+    summary: ''
+    fullName: defaultMaxListeners
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        description: ''
+        type: number
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.defaultMaxListeners
+  - name: errorMonitor
+    uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.errorMonitor'
+    package: '@microsoft/live-share-media'
+    summary: >
+      This symbol shall be used to install a listener for only monitoring
+      `'error'`
+
+      events. Listeners installed using this symbol are called before the
+      regular
+
+      `'error'` listeners are called.
+
+      Installing a listener using this symbol does not change the behavior once
+      an
+
+      `'error'` event is emitted, therefore the process will still crash if no
+
+      regular `'error'` listener is installed.
+    fullName: errorMonitor
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'static errorMonitor: Object'
+      return:
+        description: ''
+        type: Object
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.errorMonitor
 inheritedMethods:
   - name: 'addListener(string | symbol, (args: any[]) => void)'
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.addListener'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -278,12 +270,12 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.addListener
   - name: 'emit(string | symbol, any[])'
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.emit'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function emit(event: string | symbol, args: any[]): boolean'
@@ -297,37 +289,37 @@ inheritedMethods:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.emit
   - name: eventNames()
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.eventNames'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function eventNames(): Array<string | symbol>'
       return:
         description: ''
         type: Array&lt;string | symbol&gt;
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.eventNames
   - name: getMaxListeners()
     uid: >-
       @microsoft/live-share-media.EphemeralMediaSessionCoordinator.getMaxListeners
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function getMaxListeners(): number'
       return:
         description: ''
         type: number
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.getMaxListeners
   - name: 'listenerCount(EventEmitter, string | symbol)'
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.listenerCount'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: true
     customDeprecatedMessage: since v4.0.0
     syntax:
@@ -344,12 +336,12 @@ inheritedMethods:
       return:
         description: ''
         type: number
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.listenerCount
   - name: listenerCount(string | symbol)
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.listenerCount'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function listenerCount(event: string | symbol): number'
@@ -360,12 +352,12 @@ inheritedMethods:
       return:
         description: ''
         type: number
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.listenerCount
   - name: listeners(string | symbol)
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.listeners'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function listeners(event: string | symbol): Function[]'
@@ -376,12 +368,12 @@ inheritedMethods:
       return:
         description: ''
         type: 'Function[]'
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.listeners
   - name: 'off(string | symbol, (args: any[]) => void)'
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.off'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -397,12 +389,12 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.off
   - name: 'on(EventEmitter, string)'
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.on'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -418,12 +410,12 @@ inheritedMethods:
       return:
         description: ''
         type: AsyncIterableIterator&lt;any&gt;
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.on
   - name: 'on(string | symbol, (args: any[]) => void)'
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.on'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -439,12 +431,12 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.on
   - name: 'once(NodeEventTarget, string | symbol)'
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.once'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -460,12 +452,12 @@ inheritedMethods:
       return:
         description: ''
         type: 'Promise&lt;any[]&gt;'
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.once
   - name: 'once(string | symbol, (args: any[]) => void)'
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.once'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -481,13 +473,13 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.once
   - name: 'prependListener(string | symbol, (args: any[]) => void)'
     uid: >-
       @microsoft/live-share-media.EphemeralMediaSessionCoordinator.prependListener
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -503,13 +495,13 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.prependListener
   - name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
     uid: >-
       @microsoft/live-share-media.EphemeralMediaSessionCoordinator.prependOnceListener
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -525,12 +517,12 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.prependOnceListener
   - name: rawListeners(string | symbol)
     uid: '@microsoft/live-share-media.EphemeralMediaSessionCoordinator.rawListeners'
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function rawListeners(event: string | symbol): Function[]'
@@ -541,13 +533,13 @@ inheritedMethods:
       return:
         description: ''
         type: 'Function[]'
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.rawListeners
   - name: removeAllListeners(string | symbol)
     uid: >-
       @microsoft/live-share-media.EphemeralMediaSessionCoordinator.removeAllListeners
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function removeAllListeners(event?: string | symbol): this'
@@ -558,13 +550,13 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.removeAllListeners
   - name: 'removeListener(string | symbol, (args: any[]) => void)'
     uid: >-
       @microsoft/live-share-media.EphemeralMediaSessionCoordinator.removeListener
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -580,13 +572,13 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.removeListener
   - name: setMaxListeners(number)
     uid: >-
       @microsoft/live-share-media.EphemeralMediaSessionCoordinator.setMaxListeners
     package: '@microsoft/live-share-media'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function setMaxListeners(n: number): this'
@@ -597,6 +589,7 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> EventEmitter.setMaxListeners
 methods:
   - name: beginSuspension(CoordinationWaitPoint)
     uid: >-
@@ -641,8 +634,7 @@ methods:
       conditionally bypassed by settings the wait points `maxClients` value.
 
 
-      Throws an exception if the session/coordinator hasn't been started.
-    isPreview: false
+      Throws an exception if the session/coordinator hasn't been initialized.
     isDeprecated: false
     syntax:
       content: >-
@@ -664,11 +656,10 @@ methods:
     package: '@microsoft/live-share-media'
     summary: Instructs the group to pause the current track.
     remarks: >-
-      Throws an exception if the session/coordinator hasn't been started, no
+      Throws an exception if the session/coordinator hasn't been initialized, no
       track has been
 
       loaded, or `canPlayPause` is false.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: function pause()
@@ -677,11 +668,10 @@ methods:
     package: '@microsoft/live-share-media'
     summary: Instructs the group to play the current track.
     remarks: >-
-      Throws an exception if the session/coordinator hasn't been started, no
+      Throws an exception if the session/coordinator hasn't been initialized, no
       track has been
 
       loaded, or `canPlayPause` is false.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: function play()
@@ -690,11 +680,10 @@ methods:
     package: '@microsoft/live-share-media'
     summary: Instructs the group to seek to a new position within the current track.
     remarks: >-
-      Throws an exception if the session/coordinator hasn't been started, no
+      Throws an exception if the session/coordinator hasn't been initialized, no
       track has been
 
       loaded, or `canSeek` is false.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function seekTo(time: number)'
@@ -708,11 +697,10 @@ methods:
     package: '@microsoft/live-share-media'
     summary: Instructs the group to load a new track.
     remarks: >-
-      Throws an exception if the session/coordinator hasn't been started or
+      Throws an exception if the session/coordinator hasn't been initialized or
       `canSetTrack` is
 
       false.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -743,11 +731,10 @@ methods:
       track changes.
 
 
-      Throws an exception if the session/coordinator hasn't been started or
+      Throws an exception if the session/coordinator hasn't been initialized or
       `canSetTrackData` is
 
       false.
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function setTrackData(data: object | null)'
