@@ -3,7 +3,7 @@ name: VideoAndImageProps
 uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps'
 package: '@microsoft/teams-js'
 summary: >-
-  * All properties in VideoAndImageProps are optional and have default values in
+  All properties in VideoAndImageProps are optional and have default values in
   the platform
 fullName: VideoAndImageProps
 remarks: ''
@@ -14,8 +14,10 @@ inheritedProperties:
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.cameraSwitcher'
     package: '@microsoft/teams-js'
     summary: >-
-      * Optional; indicate if user is allowed to move between front and back
-      camera           * Default value is true
+      Optional; indicate if user is allowed to move between front and back
+      camera
+
+      Default value is true
     fullName: cameraSwitcher
     remarks: ''
     isDeprecated: false
@@ -31,8 +33,10 @@ inheritedProperties:
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.enableFilter'
     package: '@microsoft/teams-js'
     summary: >-
-      * Optional; indicate if image filtering mode is enabled on the selected
-      image           * Default value is false
+      Optional; indicate if image filtering mode is enabled on the selected
+      image
+
+      Default value is false
     fullName: enableFilter
     remarks: ''
     isDeprecated: false
@@ -49,8 +53,10 @@ inheritedProperties:
       @microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.imageOutputFormats
     package: '@microsoft/teams-js'
     summary: >-
-      * Optional; Lets the developer specify the image output formats, more than
-      one can be specified.           * Default value is Image.
+      Optional; Lets the developer specify the image output formats, more than
+      one can be specified.
+
+      Default value is Image.
     fullName: imageOutputFormats
     remarks: ''
     isDeprecated: false
@@ -67,9 +73,9 @@ inheritedProperties:
   - name: ink
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.ink'
     package: '@microsoft/teams-js'
-    summary: >-
-      * Optional; indicate if inking on the selected Image is allowed or
-      not           * Default value is true
+    summary: |-
+      Optional; indicate if inking on the selected Image is allowed or not
+      Default value is true
     fullName: ink
     remarks: ''
     isDeprecated: false
@@ -86,10 +92,13 @@ inheritedProperties:
       @microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.isFullScreenMode
     package: '@microsoft/teams-js'
     summary: >-
-      * Optional; to determine if the video capturing flow needs to be
-      launched           * in Full Screen Mode (Lens implementation) or
-      PictureInPicture Mode (Native implementation).           * Default value
-      is true, indicating video will always launch in Full Screen Mode via lens.
+      Optional; to determine if the video capturing flow needs to be launched
+
+      in Full Screen Mode (Lens implementation) or PictureInPicture Mode (Native
+      implementation).
+
+      Default value is true, indicating video will always launch in Full Screen
+      Mode via lens.
     fullName: isFullScreenMode
     remarks: ''
     isDeprecated: false
@@ -105,10 +114,9 @@ inheritedProperties:
     uid: >-
       @microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.isStopButtonVisible
     package: '@microsoft/teams-js'
-    summary: >-
-      * Optional; controls the visibility of stop button in PictureInPicture
-      Mode.           * Default value is true, indicating the user will be able
-      to stop the video.
+    summary: |-
+      Optional; controls the visibility of stop button in PictureInPicture Mode.
+      Default value is true, indicating the user will be able to stop the video.
     fullName: isStopButtonVisible
     remarks: ''
     isDeprecated: false
@@ -124,9 +132,10 @@ inheritedProperties:
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.maxDuration'
     package: '@microsoft/teams-js'
     summary: >-
-      * Optional; the maximum duration in seconds after which the recording
-      should terminate automatically.           * Default value is defined by
-      the platform serving the API.
+      Optional; the maximum duration in seconds after which the recording should
+      terminate automatically.
+
+      Default value is defined by the platform serving the API.
     fullName: maxDuration
     remarks: ''
     isDeprecated: false
@@ -142,8 +151,10 @@ inheritedProperties:
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.sources'
     package: '@microsoft/teams-js'
     summary: >-
-      * Optional; Lets the developer specify the media source, more than one can
-      be specified.           * Default value is both camera and gallery
+      Optional; Lets the developer specify the media source, more than one can
+      be specified.
+
+      Default value is both camera and gallery
     fullName: sources
     remarks: ''
     isDeprecated: false
@@ -158,8 +169,8 @@ inheritedProperties:
   - name: startMode
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.startMode'
     package: '@microsoft/teams-js'
-    summary: >-
-      * Optional; Specify in which mode the camera will be opened.           *
+    summary: |-
+      Optional; Specify in which mode the camera will be opened.
       Default value is Photo
     fullName: startMode
     remarks: ''
@@ -178,8 +189,10 @@ inheritedProperties:
     uid: '@microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.textSticker'
     package: '@microsoft/teams-js'
     summary: >-
-      * Optional; indicate if putting text stickers on the selected Image is
-      allowed or not           * Default value is true
+      Optional; indicate if putting text stickers on the selected Image is
+      allowed or not
+
+      Default value is true
     fullName: textSticker
     remarks: ''
     isDeprecated: false
@@ -196,10 +209,11 @@ inheritedProperties:
       @microsoft/teams-js.microsoftTeams.media.VideoAndImageProps.videoController
     package: '@microsoft/teams-js'
     summary: >-
-      * Optional; setting VideoController will register your app to listen to
-      the lifecycle events during the video capture flow.           * Your app
-      can also dynamically control the experience while capturing the video by
-      notifying the host client.
+      Optional; setting VideoController will register your app to listen to the
+      lifecycle events during the video capture flow.
+
+      Your app can also dynamically control the experience while capturing the
+      video by notifying the host client.
     fullName: videoController
     remarks: ''
     isDeprecated: false

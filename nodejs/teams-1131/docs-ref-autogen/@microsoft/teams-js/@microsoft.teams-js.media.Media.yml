@@ -2,7 +2,7 @@
 name: Media
 uid: '@microsoft/teams-js.@microsoft.teams-js.media.Media'
 package: '@microsoft/teams-js'
-summary: '* Media object returned by the select Media API'
+summary: Media object returned by the select Media API
 fullName: Media
 remarks: ''
 isDeprecated: false
@@ -25,7 +25,8 @@ properties:
     uid: '@microsoft/teams-js.@microsoft.teams-js.media.Media.preview'
     package: '@microsoft/teams-js'
     summary: >-
-      * A preview of the file which is a lightweight representation.           *
+      A preview of the file which is a lightweight representation.
+
       In case of images this will be a thumbnail/compressed image in base64
       encoding.
     fullName: preview
@@ -41,10 +42,12 @@ inheritedProperties:
     uid: '@microsoft/teams-js.@microsoft.teams-js.media.Media.content'
     package: '@microsoft/teams-js'
     summary: >-
-      * Content of the file. When format is Base64, this is the base64
-      content           * When format is ID, this is id mapping to the
-      URI           * When format is base64 and app needs to use this directly
-      in HTML tags, it should convert this to dataUrl.
+      Content of the file. When format is Base64, this is the base64 content
+
+      When format is ID, this is id mapping to the URI
+
+      When format is base64 and app needs to use this directly in HTML tags, it
+      should convert this to dataUrl.
     fullName: content
     remarks: ''
     isDeprecated: false
@@ -59,7 +62,7 @@ inheritedProperties:
   - name: format
     uid: '@microsoft/teams-js.@microsoft.teams-js.media.Media.format'
     package: '@microsoft/teams-js'
-    summary: '* Format of the content'
+    summary: Format of the content
     fullName: format
     remarks: ''
     isDeprecated: false
@@ -76,7 +79,7 @@ inheritedProperties:
   - name: mimeType
     uid: '@microsoft/teams-js.@microsoft.teams-js.media.Media.mimeType'
     package: '@microsoft/teams-js'
-    summary: '* MIME type. This can be used for constructing a dataUrl, if needed.'
+    summary: MIME type. This can be used for constructing a dataUrl, if needed.
     fullName: mimeType
     remarks: ''
     isDeprecated: false
@@ -91,7 +94,7 @@ inheritedProperties:
   - name: name
     uid: '@microsoft/teams-js.@microsoft.teams-js.media.Media.name'
     package: '@microsoft/teams-js'
-    summary: '* Optional: Name of the file'
+    summary: 'Optional: Name of the file'
     fullName: name
     remarks: ''
     isDeprecated: false
@@ -106,7 +109,7 @@ inheritedProperties:
   - name: size
     uid: '@microsoft/teams-js.@microsoft.teams-js.media.Media.size'
     package: '@microsoft/teams-js'
-    summary: '* Size of the file in KB'
+    summary: Size of the file in KB
     fullName: size
     remarks: ''
     isDeprecated: false
@@ -123,8 +126,8 @@ methods:
     uid: '@microsoft/teams-js.@microsoft.teams-js.media.Media.getMedia'
     package: '@microsoft/teams-js'
     summary: >-
-      * Gets the media in chunks irrespecitve of size, these chunks are
-      assembled and sent back to the webapp as file/blob           *
+      Gets the media in chunks irrespecitve of size, these chunks are assembled
+      and sent back to the webapp as file/blob
     remarks: ''
     isDeprecated: false
     syntax:

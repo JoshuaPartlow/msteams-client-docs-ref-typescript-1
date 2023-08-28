@@ -12,9 +12,10 @@ properties:
     uid: >-
       @microsoft/teams-js.microsoftTeams.location.LocationProps.allowChooseLocation
     package: '@microsoft/teams-js'
-    summary: >-
-      whether user can alter location or not          if false, user will be
-      shown current location          and wouldn't be allowed to alter it
+    summary: |-
+      whether user can alter location or not
+      if false, user will be shown current location
+      and wouldn't be allowed to alter it
     fullName: allowChooseLocation
     remarks: ''
     isDeprecated: false
@@ -27,10 +28,15 @@ properties:
     uid: '@microsoft/teams-js.microsoftTeams.location.LocationProps.showMap'
     package: '@microsoft/teams-js'
     summary: >-
-      whether selected location should be shown to user on map or not.         
+      whether selected location should be shown to user on map or not.
+
       If allowChooseLocation is true, this parameter will be ignored by
-      platform.          If allowChooseLocation is false, and this parameter is
-      not provided, default          value will be false.
+      platform.
+
+      If allowChooseLocation is false, and this parameter is not provided,
+      default
+
+      value will be false.
     fullName: showMap
     remarks: ''
     isDeprecated: false
